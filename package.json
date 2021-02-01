@@ -1,0 +1,20 @@
+{
+  "name": "spreadsheet-report",
+  "version": "1.0.0",
+  "description": "Report stuff to a Google Sheets-document using the terminal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bin": {
+    "str": "app.js"
+  },
+  "author": "(https://github.com/isaccanedo/spreadsheet-report)",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "google-spreadsheet": "^2.0.4",
+    "inquirer": "^3.2.2",
+    "moment": "^2.18.1"
+  }
+}
